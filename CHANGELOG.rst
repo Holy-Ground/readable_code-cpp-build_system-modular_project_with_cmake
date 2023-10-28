@@ -1,16 +1,9 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package template_ground
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-1.0.0 (2023-09-04)
-------------------
-* Added skeleton codes
-* Contributors: EunSung Yang
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package MODULAR_PROJECT_WITH_CMAKE
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.0.0 (2023-10-28)
 ------------------
-* Removed unused files
-* Optimized CMakeLists.txt
-* Updated LICENSE
+* Added skeleton codes
 * Contributors: EunSung Yang
 

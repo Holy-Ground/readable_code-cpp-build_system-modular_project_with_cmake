@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11)
 
-set(PACKAGE_NAME TEMPLATE_GROUND)
+set(PACKAGE_NAME MODULAR_PROJECT_WITH_CMAKE)
 set(PACKAGE_VERSION 1.0.0)
 
 project(${PACKAGE_NAME} VERSION ${PACKAGE_VERSION} LANGUAGES CXX)
@@ -36,12 +36,12 @@ message(STATUS "${PACKAGE_NAME}_PATH: ${${PACKAGE_NAME}_PATH}")
 # )
 
 # example for adding executable
-# target_link_libraries(TEMPLATE_GROUND_MAIN
+# target_link_libraries(MODULAR_PROJECT_WITH_CMAKE_MAIN
 # target_library_1
 # target_library_2
 # ...
 # )
-# add_executable(TEMPLATE_GROUND_MAIN src/main.cpp)
-# target_compile_options(TEMPLATE_GROUND_MAIN PRIVATE
+# add_executable(MODULAR_PROJECT_WITH_CMAKE_MAIN src/main.cpp)
+# target_compile_options(MODULAR_PROJECT_WITH_CMAKE_MAIN PRIVATE
 # -Wall -Wextra -Wpedantic -Werror
 # )
