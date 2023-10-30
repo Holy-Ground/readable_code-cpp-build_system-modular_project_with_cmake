@@ -1,5 +1,6 @@
 # Build
 build/**
+thirdparty/install/**
 
 # VSCode
 .idea/**
