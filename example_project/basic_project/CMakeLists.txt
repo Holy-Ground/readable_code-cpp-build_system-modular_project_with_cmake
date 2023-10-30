@@ -63,15 +63,15 @@ set(${PROJECT_NAME}_SOURCE_FILES
   src/main.cpp
 )
 
-include(cmake/find_gtest.cmake)
+include(cmake/find_thirdparties.cmake)
 
-include_directories(${GTEST_INCLUDE_PATH})
+include_directories(${GTest_INCLUDE_PATH})
 
 add_executable(MAIN ${${PROJECT_NAME}_SOURCE_FILES})
 
 target_link_libraries(MAIN
   PRIVATE
-  ${GTEST_LIBS}
+  GTest::gtest
 )
 target_compile_options(MAIN PRIVATE
   -Wall -Wextra -Wpedantic -Werror
