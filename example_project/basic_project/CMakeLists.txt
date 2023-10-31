@@ -58,6 +58,7 @@ message(STATUS "${PROJECT_NAME}_THIRDPARTY_PATH: ${${PROJECT_NAME}_THIRDPARTY_PA
 message(STATUS)
 
 add_subdirectory(${${PROJECT_NAME}_THIRDPARTY_PATH})
+add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
 
 set(${PROJECT_NAME}_SOURCE_FILES
   src/main.cpp
@@ -68,10 +69,8 @@ include(cmake/find_thirdparties.cmake)
 include_directories(${GTest_INCLUDE_PATH})
 
 add_executable(MAIN ${${PROJECT_NAME}_SOURCE_FILES})
-
 target_link_libraries(MAIN
-  PRIVATE
-  GTest::gtest
+  CMAKE_GROUND_EXAMPLE
 )
 target_compile_options(MAIN PRIVATE
   -Wall -Wextra -Wpedantic -Werror

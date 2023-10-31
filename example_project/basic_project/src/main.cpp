@@ -2,11 +2,10 @@
 // Authors: EunSung Yang
 
 #include <cstdint>
-#include <iostream>
 
-#include "gtest/gtest.h"
+#include "example/utils.hpp"
 
-auto main() -> int32_t {
-  std::cout << "Hello World!" << std::endl;
+int32_t main() {
+  holyground::example::Print("Hello World!");
   return 0;
 }

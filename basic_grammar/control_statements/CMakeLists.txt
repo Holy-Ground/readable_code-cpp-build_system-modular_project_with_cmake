@@ -21,6 +21,20 @@ else()
   message(STATUS "STRING_VARIABLE is not 1 and 2\n")
 endif()
 
+# loops
+# set(STRING_VARIABLES "a" "b" "c" "d" "e")
+# foreach(ELEMENT IN LISTS STRING_VARIABLES)
+#   message(STATUS "ELEMENT: ${ELEMENT}")
+# endforeach()
+
+# foreach(VALUE RANGE 5)
+#   message(STATUS "VALUE: ${VALUE}")
+# endforeach()
+
+# foreach(VALUE RANGE 2 5 2) # start, stop, step
+#   message(STATUS "VALUE: ${VALUE}")
+# endforeach()
+
 # NOT, AND, OR
 # EQUAL, STREQUAL
 # LESS, GREATER, LESS_EQUAL, GREATER_EQUAL
