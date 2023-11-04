@@ -110,13 +110,13 @@ target_compile_options(UTILS
   PRIVATE
   -Wall
   -Wextra
-  -Wpedantic
+  -Werror
 )
 target_compile_options(PRINTING_MESSAGE
   PRIVATE
   -Wall
   -Wextra
-  -Wpedantic
+  -Werror
 )
 message(STATUS "")
 
