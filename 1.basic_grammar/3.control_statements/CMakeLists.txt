@@ -2,9 +2,9 @@
 cmake_minimum_required(VERSION 3.11) # Minimum CMake version required
 project(3.CONTROL_STATEMENTS) # Required for CMake to know what project this is
 
-message(STATUS)
+message(STATUS "")
 message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
-message(STATUS)
+message(STATUS "")
 
 # message(STATUS "Example 1: conditionals - if, endif and else")
 # set(BOOL_VARIABLE_1 FALSE)
@@ -295,6 +295,6 @@ message(STATUS)
 # endwhile()
 
 # message(STATUS "")
-message(STATUS)
+message(STATUS "")
 message(STATUS "Finished all process in ${PROJECT_NAME} CMakeLists.txt.")
-message(STATUS)
+message(STATUS "")

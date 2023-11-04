@@ -2,9 +2,9 @@
 cmake_minimum_required(VERSION 3.11) # Minimum CMake version required
 project(2.VARIABLES) # Required for CMake to know what project this is
 
-message(STATUS)
+message(STATUS "")
 message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
-message(STATUS)
+message(STATUS "")
 
 # message(STATUS "Example 1: Set a variable.")
 # set(VARIABLE 1)
@@ -36,7 +36,6 @@ message(STATUS)
 # message(STATUS "Example 4: Set bool variables as a list.")
 # set(BOOL_LIST TRUE FALSE ON OFF YES NO 1 0)
 # message(STATUS "BOOL_LIST: ${BOOL_LIST}\n")
-
-message(STATUS)
+message(STATUS "")
 message(STATUS "Finished all process in ${PROJECT_NAME} CMakeLists.txt.")
-message(STATUS)
+message(STATUS "")
