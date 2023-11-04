@@ -2,18 +2,12 @@
 cmake_minimum_required(VERSION 3.11) # Minimum CMake version required
 project(MODULAR_PROJECT_WITH_CMAKE) # Required for CMake to know what project this is
 
-# add_subdirectory(basic_grammar/message)
-# add_subdirectory(basic_grammar/variables)
-# add_subdirectory(basic_grammar/control_statements)
+message(STATUS)
+message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
+# add_subdirectory(1.basic_grammar)
+# add_subdirectory(2.advanced_topics)
+# add_subdirectory(3.best_practices-ultimate_project_structure)
+message(STATUS "Finished all process in ${PROJECT_NAME} CMakeLists.txt.")
+message(STATUS)
 
-add_subdirectory(example_project)
-
-# 1. 기초 문법
-# 1.1. 메시지 출력
-# 1.2. 변수
-# 1.3. 제어문
-
-# 2. 외부 종속성 관리
-# 2.1. ExternalProject_Add
-# 2.2. FetchContent
-# 2.3. ExternalProject를 사용해서 GTest 추가하기
+# 리더블 코드니까 강의 처음에 기술법을 알려주는게 좋을 것 같다.
