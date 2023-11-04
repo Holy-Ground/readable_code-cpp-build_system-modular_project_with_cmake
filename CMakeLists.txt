@@ -12,7 +12,6 @@ message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
 
 # add_subdirectory(1.basic_grammar)
 # add_subdirectory(2.advanced_topics)
-
 # add_subdirectory(3.best_practices-ultimate_project_structure)
 message(STATUS "Finished all process in ${PROJECT_NAME} CMakeLists.txt.")
 message(STATUS "")
