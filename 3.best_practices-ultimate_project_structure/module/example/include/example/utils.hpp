@@ -1,8 +1,8 @@
 // Copyright (c) 2023 HolyGround, All Rights Reserved.
 // Authors: EunSung Yang
 
-#ifndef EXAMPLE__UTILS_HPP_
-#define EXAMPLE__UTILS_HPP_
+#ifndef HOLYGROUND__EXAMPLE__UTILS_HPP_
+#define HOLYGROUND__EXAMPLE__UTILS_HPP_
 
 #include <string>
 
@@ -14,4 +14,4 @@ namespace holyground::example {
  */
 void Print(const std::string &message);
 } // namespace holyground::example
-#endif // EXAMPLE__UTILS_HPP_
+#endif // HOLYGROUND__EXAMPLE__UTILS_HPP_
