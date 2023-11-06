@@ -16,5 +16,3 @@ message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
 
 message(STATUS "Finished all process in ${PROJECT_NAME} CMakeLists.txt.")
 message(STATUS "")
-
-# 리더블 코드니까 강의 처음에 기술법을 알려주는게 좋을 것 같다.
