@@ -1,6 +1,6 @@
 # Basic configurations
 cmake_minimum_required(VERSION 3.11) # Minimum CMake version required
-project(5.SCOPING) # Required for CMake to know what project this is
+project(5.SCOPE) # Required for CMake to know what project this is
 
 message(STATUS "")
 message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
