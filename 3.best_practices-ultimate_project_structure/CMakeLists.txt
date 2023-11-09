@@ -80,11 +80,10 @@ message(STATUS "")
 add_subdirectory(${${PROJECT_NAME}_THIRDPARTY_PATH})
 add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
 add_subdirectory(${${PROJECT_NAME}_APPLICATION_PATH})
+set(${PROJECT_NAME}_SOURCE_FILES
 
-# set(${PROJECT_NAME}_SOURCE_FILES
-
-# ! Add source files here
-# )
+  # ! Add source files here
+)
 
 # ! If you want to make a library, use the following code
 # add_library(${PROJECT_NAME} STATIC
@@ -108,7 +107,7 @@ add_subdirectory(${${PROJECT_NAME}_APPLICATION_PATH})
 # )
 # add_dependencies(${PROJECT_NAME}
 
-# # ! Add dependencies here
+# ! Add dependencies here
 # )
 # target_compile_options(${PROJECT_NAME} PRIVATE
 # ${CPP_COMFILE_FLAGS}
