@@ -1,6 +1,6 @@
 add_subdirectory(child)
 
-message(STATUS "On parent:")
+message(STATUS "On 5.scope/parent/CMakeLists.txt")
 message(STATUS "CHILD_STRING_VALIABLE: ${CHILD_STRING_VALIABLE}")
 message(STATUS "PARENT_STRING_VARIABLE: ${PARENT_STRING_VARIABLE}")
 message(STATUS "GLOBAL_STRING_VARIABLE: ${GLOBAL_STRING_VARIABLE}")

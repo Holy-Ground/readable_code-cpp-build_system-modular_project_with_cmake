@@ -7,7 +7,7 @@ message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
 message(STATUS "")
 
 # message(STATUS "Example 1: Set a variable.")
-# set(VARIABLE 1)
+# set(VARIABLE 2)
 # message(STATUS "VARIABLE: ${VARIABLE}\n")
 
 # message(STATUS "Example 2: Set variables as a list.")

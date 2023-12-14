@@ -16,7 +16,7 @@ message(STATUS "")
 # message(STATUS "CMAKE_SYSTEM_NAME: ${CMAKE_SYSTEM_NAME}")
 # message(STATUS "")
 
-# message(STATUS "CMAKE_SYSTEM : {OS_VERSION}")
+# message(STATUS "CMAKE_SYSTEM_VERSION : {OS_VERSION}")
 # message(STATUS "CMAKE_SYSTEM_VERSION: ${CMAKE_SYSTEM_VERSION}")
 # message(STATUS "")
 
@@ -84,7 +84,6 @@ message(STATUS "")
 # message(STATUS "CMAKE_CXX_COMPILE_FEATURES : {COMPILE_FEATURES} - cxx_std_11, cxx_std_14, cxx_std_17, cxx_std_20, cxx_std_23")
 # message(STATUS "CMAKE_CXX_COMPILE_FEATURES: ${CMAKE_CXX_COMPILE_FEATURES}")
 # message(STATUS "")
-
 # message(STATUS "Example 4: Global variables for project")
 
 # message(STATUS "CMAKE_PROJECT_NAME : {PROJECT_NAME}")

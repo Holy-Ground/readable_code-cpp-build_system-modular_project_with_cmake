@@ -23,7 +23,7 @@ message(STATUS "")
 # message(STATUS "CMAKE_CURRENT_LIST_DIR: ${CMAKE_CURRENT_LIST_DIR}")
 # message(STATUS "")
 # message(STATUS "Example 1.6: variables for file system - include()")
-# message(STATUS "include is the function to include a cmake file, it is similar to #include in C/C++")
+# message(STATUS "include is the function to include a .cmake file, it is similar to #include in C/C++")
 # message(STATUS "include(cmake/example.cmake)")
 # include(cmake/example.cmake)
 
@@ -55,11 +55,11 @@ message(STATUS "")
 
 # message(STATUS "Example 4: directory")
 # message(STATUS "Example 4.1: directory - create")
-# file(MAKE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/directory)
+# file(MAKE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/directory1)
 # message(STATUS "")
 
 # message(STATUS "Example 4.2: directory - remove")
-# file(REMOVE_RECURSE ${CMAKE_CURRENT_SOURCE_DIR}/directory)
+# file(REMOVE_RECURSE ${CMAKE_CURRENT_SOURCE_DIR}/directory1)
 # message(STATUS "")
 
 # message(STATUS "Example 5: copy")

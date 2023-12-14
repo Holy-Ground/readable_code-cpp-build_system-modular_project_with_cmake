@@ -44,7 +44,6 @@ message(STATUS "")
 # message(STATUS "The BOOL_VARIABLE_1 is false.")
 # endif()
 # message(STATUS "")
-
 # message(STATUS "Example 2.2: conditionals - logical operators - AND")
 # message(STATUS "Condition: BOOL_VARIABLE_1 AND BOOL_VARIABLE_2")
 
@@ -52,7 +51,6 @@ message(STATUS "")
 # message(STATUS "Both BOOL_VARIABLE_1 and BOOL_VARIABLE_2 are true.")
 # endif()
 # message(STATUS "")
-
 # message(STATUS "Example 2.3: conditionals - logical operators - OR")
 # message(STATUS "Condition: BOOL_VARIABLE_1 OR BOOL_VARIABLE_2")
 
@@ -142,7 +140,6 @@ message(STATUS "")
 # endif()
 
 # message(STATUS "")
-
 # message(STATUS "Example 5.2: conditionals - MATCHES - ends with")
 # message(STATUS "Condition: STRING_VARIABLE_1 ends with '.txt'")
 
@@ -151,7 +148,6 @@ message(STATUS "")
 # endif()
 
 # message(STATUS "")
-
 # message(STATUS "Example 5.3: conditionals - MATCHES - contains")
 # message(STATUS "Condition: STRING_VARIABLE_1 contains 'c1'")
 
@@ -162,16 +158,15 @@ message(STATUS "")
 # message(STATUS "")
 
 # message(STATUS "Example 5.4: conditionals - MATCHES - specific pattern")
-# message(STATUS "Condition: STRING_VARIABLE_1 included in '^[a-z]{3}.txt$'")
+# message(STATUS "Condition: STRING_VARIABLE_1 included in '[a-z]{3}.txt$'")
 
-# if(${STRING_VARIABLE_1} MATCHES "^[a-z]{3}.txt")
-# message(STATUS "STRING_VARIABLE_1 included in '^[a-z]{3}.txt$'")
+# if(${STRING_VARIABLE_1} MATCHES "[a-z]{3}.txt")
+# message(STATUS "STRING_VARIABLE_1 included in '[a-z]{3}.txt$'")
 # endif()
 
 # message(STATUS "")
-
 # message(STATUS "Example 6: conditionals - IN_LIST")
-# set(STRING_LIST "a" "b" "c" "d" "e")
+# set(STRING_LIST "a" "abc.txt" "c" "d" "e")
 # message(STATUS "STRING_LIST: ${STRING_LIST}")
 # message(STATUS "Example 6.1: conditionals - IN_LIST - in list")
 # message(STATUS "Condition: STRING_VARIABLE_1 in STRING_LIST")

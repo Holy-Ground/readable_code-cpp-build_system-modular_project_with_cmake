@@ -30,9 +30,7 @@ message(STATUS "")
 # message(STATUS "PROJECT_BINARY_DIR: ${PROJECT_BINARY_DIR}")
 # message(STATUS "PROJECT_IS_TOP_LEVEL: ${PROJECT_IS_TOP_LEVEL}")
 # message(STATUS "")
-
 # message(STATUS "Example 2: setting CMAKE_CXX_SOMETHING variables")
-
 # message(STATUS "CMAKE_CXX_STANDARD is the variable for setting C++ standard")
 # message(STATUS "If CMAKE_CXX_STANDARD is not set, CMAKE_CXX_STANDARD will be set to comfiler default")
 # set(CMAKE_CXX_STANDARD 17)
@@ -53,7 +51,7 @@ message(STATUS "")
 # message(STATUS "Example 3: add_library() command")
 
 # message(STATUS "add_library() command is used to create a library target")
-# message(STATUS "add_library() command has 3 types: STATIC, SHARED")
+# message(STATUS "add_library() command has 2 types: STATIC, SHARED")
 # message(STATUS "STATIC: static library")
 # message(STATUS "SHARED: shared library")
 # add_library(UTILS

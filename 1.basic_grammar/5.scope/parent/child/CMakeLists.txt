@@ -1,6 +1,6 @@
 # message(STATUS "Example 1 - Local scope variable")
-# message(STATUS "Local scope variable in top_level/parent/child/CMakeLists.txt")
-# message(STATUS "set(LOCAL_VARIABLE_NAME value)")
+# message(STATUS "Local scope variable in 5.scope/parent/child/CMakeLists.txt")
+# message(STATUS "set(CHILD_STRING_VALIABLE value)")
 # set(CHILD_STRING_VALIABLE "child")
 # message(STATUS "CHILD_STRING_VALIABLE only can read in top_level/parent/child/CMakeLists.txt")
 
@@ -8,7 +8,7 @@
 
 # message(STATUS "Example 2 - Parent scope variable")
 # message(STATUS "Parent scope variable in top_level/parent/child/CMakeLists.txt")
-# message(STATUS "set(PARENT_VARIABLE_NAME value)")
+# message(STATUS "set(PARENT_VARIABLE_NAME value PARENT_SCOPE)")
 # set(PARENT_STRING_VARIABLE "parent" PARENT_SCOPE)
 # message(STATUS "PARENT_STRING_VARIABLE can read in top_level/parent/CMakeLists.txt")
 
@@ -32,7 +32,7 @@
 # message(STATUS "GLOBAL_STRING_VARIABLE can read in any CMakeLists.txt")
 # message(STATUS "")
 
-message(STATUS "On child: ${CHILD_STRING_VALIABLE}")
+message(STATUS "On 5.scope/parent/child/CMakeLists.txt")
 message(STATUS "CHILD_STRING_VALIABLE: ${CHILD_STRING_VALIABLE}")
 message(STATUS "PARENT_STRING_VARIABLE: ${PARENT_STRING_VARIABLE}")
 message(STATUS "GLOBAL_STRING_VARIABLE: ${GLOBAL_STRING_VARIABLE}")
